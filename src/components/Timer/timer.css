@@ -1,0 +1,28 @@
+.timer {
+  background-color: #eff3ef;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  width: 10.8vw;
+  padding: 5px 10px;
+ 
+}
+.timer.done {
+  background-color: rgb(20, 173, 71);
+  color: white;
+  font-weight: 600;
+}
+.timer.old{
+      background-color: #eff3ef;
+}
+.timer-box {
+  display: grid;
+ grid-template-columns:auto auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  padding: 0px 10px;
+ 
+  /* width: 32vw; */
+}
