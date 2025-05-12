@@ -26,3 +26,16 @@
  
   /* width: 32vw; */
 }
+
+
+
+
+
+@media (max-width: 768px) {
+  .timer{
+    width: fit-content;
+  }
+  .timer-box{
+    grid-template-columns: auto auto;
+  }
+}

@@ -13,6 +13,7 @@ body {
 
 .content {
   padding: 10px 20px;
+  height: 88vh;
 }
 .box {
   display: flex;
@@ -21,7 +22,7 @@ body {
 }
 
 .navbar {
-  width: 220px;
+  width: 200px;
   background-color: #192938;
   padding: 24px 16px;
 }
@@ -67,6 +68,11 @@ body {
   font-weight: 500;
   color: #dcdee0;
 }
+.section-text{
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 5px 0px;
+}
 
 .carts {
   height: 60vh;
@@ -85,7 +91,7 @@ body {
   border: 2px solid #fff;
   background-color: white;
   cursor: pointer;
-  width: 57vw;
+  width: 58vw;
   height: 16vh;
   padding: 0px 10px;
 }
@@ -108,6 +114,7 @@ body {
 }
 .cart-desc {
   color: #6b7280;
+  font-size: 1rem;
 }
 .cart-price {
   font-size: 1.2rem;
@@ -183,13 +190,15 @@ input {
   border: 0;
   font-size: 1.2rem;
 }
+input::placeholder{
+  color: black;
+}
 form {
   padding: 0px 0px 20px 20px;
   display: flex;
   flex-direction: column;
   gap: 40px;
   height: 42vh;
-
 }
 .section4 {
   min-height: 70vh;
@@ -220,7 +229,7 @@ form {
 
 .calendar-timer {
   display: flex;
- gap: 5px;
+  gap: 5px;
   justify-content: space-between;
 }
 
@@ -229,7 +238,7 @@ form {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-
+  padding: 20px 0px;
 }
 .timer-text {
   text-align: center;
@@ -237,5 +246,128 @@ form {
   font-weight: 600;
   margin: 20px;
 }
+.date-time{
+  display: flex;
+}
+/* responsive */
 
+@media (max-width: 768px) {
+  .navbar {
+    width: 90px;
+    height: 100vh;
+    padding: 10px;
+    
+  }
+
+  .navbar-items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .number-name {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+  }
+
+  .number {
+    width: 40px;
+    height: 40px;
+  }
+
+  .section-name {
+    font-size: 12px;
+    max-width: 60px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container{
+    height: fit-content;
+  }
+ 
+  .content {
+  padding: 10px 10px;
+  height: fit-content;
+}
+.box{
+  height: 100vh;
+}
+  .carts {
+    grid-template-columns: repeat(3, 1fr);
+    height: 70vh;
+  }
+  .cart {
+    height: fit-content;
+      width: 62vw;
+    padding: 10px;
+  }
+  .cart-name {
+    font-size: 0.7rem;
+  }
+  .cart-price{
+    font-size: 1rem;
+  }
+
+  .doctor-img {
+    width: 35px;
+    height: 35px;
+  }
+  .cart-desc {
+    font-size: 0.5rem;
+  }
+  .calendar-timer{
+    flex-direction: column;
+  }
+  .calendar{
+      padding: 10px 5px;
+       height: fit-content;
+       width: fit-content;
+  }
+  .timer-box-text{
+    width: 63vw;
+    height: 30vh;
+    padding: 10px;
+  }
+  .timer-text{
+    margin: 2px;
+  }
+  .next-btn-box{
+    height: 8vh;
+  }
+  form{
+      height: fit-content;
+      gap: 10px;
+  }
+  input {
+  padding: 10px;
+  width: 55vw;
+  border: 0;
+  font-size: 1rem;
+}
+
+.box-input{
+  flex-direction: column;
+  gap: 10px;
+}
+.booking-btn {
+  font-weight: 500;
+  padding: 5px 5px;
+  font-size: .7rem;
+}
+.btn-back{
+  font-size: 0.8rem;
+  padding-bottom: 6px;
+}
+.report{
+  margin: 0px 0px 0px 10px;
+}
+.date-time{
+  flex-direction: column;
+}
+}
 

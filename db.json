@@ -139,7 +139,7 @@
           "name": "Təzyiq ölçülməsi",
           "imgUrl": "/images/image1.png",
           "time": "20 dəqiqə",
-          "leasure-time": [
+          "leasure": [
             {
               "id": 13,
               "start": "16:00",
@@ -243,54 +243,22 @@
   ],
   "selectedData": [
     {
-      "id": "c3b5",
+      "id": "02d4",
+      "userName": "Nihat",
+      "userLastName": "Nihat",
+      "userEmail": "nihatmemmedov.0520@gmail.com",
+      "userNumber": "0557748548",
+      "userSelectedDoctor": "Anar Abbasov",
+      "userSelectedService": "Ürək müayinəsi"
+    },
+    {
+      "id": "d2fc",
       "userName": "Nihat",
       "userLastName": "Nihat",
       "userEmail": "nihatmemmedov.0520@gmail.com",
       "userNumber": "0557748548",
       "userSelectedDoctor": "Nihat Memmedov",
-      "userSelectedService": "İmplant"
-    },
-    {
-      "id": "51ed",
-      "userName": "Nihat",
-      "userLastName": "Nihat",
-      "userEmail": "nihatmemmedov.0520@gmail.com",
-      "userNumber": "0557748548",
-      "userSelectedDoctor": "Nihat Memmedov",
-      "userSelectedService": "İmplant"
-    },
-    {
-      "id": "6140",
-      "userSelectedDoctor": "Nihat Memmedov",
-      "userSelectedService": "İmplant"
-    },
-    {
-      "id": "7ad1",
-      "userName": "Nihat",
-      "userLastName": "Nihat",
-      "userEmail": "nihatmemmedov.0520@gmail.com",
-      "userNumber": "0557748548",
-      "userSelectedDoctor": "Nihat Memmedov",
-      "userSelectedService": "İmplant"
-    },
-    {
-      "id": "2a8c",
-      "userName": "",
-      "userLastName": "",
-      "userEmail": "",
-      "userNumber": "",
-      "userSelectedDoctor": "Nihat Memmedov",
-      "userSelectedService": "Plomb"
-    },
-    {
-      "id": "d3ca",
-      "userName": "Nihat123",
-      "userLastName": "Nihat",
-      "userEmail": "nihatmemmedov.0520@gmail.com",
-      "userNumber": "0557748548",
-      "userSelectedDoctor": "Nihat Memmedov",
-      "userSelectedService": "İmplant"
+      "userSelectedService": "Diş çəkdirmək"
     }
   ]
 }
